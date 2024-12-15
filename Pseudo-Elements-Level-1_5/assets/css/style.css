@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.testimonial{
+    width: 400px;
+    height: 120px;
+    margin: 100px;
+    text-align: center;
+} 
+p{
+    line-height: 1,2rem;
+    position: relative;
+
+padding: 20px; 
+}
+p::first-letter{
+    font-size: 2.4rem;
+}
+p::before{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/157/157247.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    margin-left: -50px;
+    margin-bottom: -10px;
+}
+p::after{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/157/157248.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: inline-block;
+    content: "";
+    height: 50px;
+    width: 50px;
+    margin-top: -75px;
+    padding-left:200px;
+}

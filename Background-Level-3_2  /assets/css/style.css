@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+ text-align: center;
+ margin-top: 100px;
+}
+ div {
+    display: inline-block;
+    padding: 20px;
+ }
+div:nth-child(1){
+    background-color: orange;
+    height:120px;
+}
+div :nth-child(2) {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 120px;
+}
+div:nth-child(3) {
+    background-image: linear-gradient(to right,orange,black);
+    height: 120px;
+    width: 140px;
+}

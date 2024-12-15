@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section h1 {
+    background-color: lightblue;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section p {
+    background-color: wheat;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+article {
+    margin-top: 5px;
+    background-image: url("../img/sky.jpg") ;
+    margin-left: 10px;
+    margin-right: 10px;
+}
